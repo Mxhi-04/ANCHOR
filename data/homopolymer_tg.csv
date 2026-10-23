@@ -1,0 +1,6 @@
+monomer,polymer,tg_K,tg_C,source,source_row
+MMA,poly(methyl methacrylate),378,104.85,Bhati et al. 2026 experimental_dataset.csv (Zenodo 19242815),ID 27 (MA/MMA 0/100)
+BA,poly(n-butyl acrylate),230,-43.15,Bhati et al. 2026 experimental_dataset.csv (Zenodo 19242815),ID 7 (MA/BA 0/100)
+ST,polystyrene,380,106.85,Bhati et al. 2026 experimental_dataset.csv (Zenodo 19242815),ID 58 (MA/S 0/100)
+EHA,poly(2-ethylhexyl acrylate),215,-58.15,Bhati et al. 2026 experimental_dataset.csv (Zenodo 19242815),ID 22 (MA/EHA 0/100)
+nHA,poly(n-hexyl acrylate),216,-57.15,Bhati et al. 2026 experimental_dataset.csv (Zenodo 19242815),ID 483 (homopolymer)
