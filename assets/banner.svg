@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="ANCHOR: physics-anchored, uncertainty-aware copolymer Tg prediction">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2A1550"/>
+      <stop offset="0.55" stop-color="#502B8B"/>
+      <stop offset="1" stop-color="#7A4CC2"/>
+    </linearGradient>
+    <linearGradient id="band" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#F5B83D" stop-opacity="0.0"/>
+      <stop offset="0.5" stop-color="#F5B83D" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#F5B83D" stop-opacity="0.0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="300" rx="24" fill="url(#bg)"/>
+  <!-- uncertainty band that breathes around a Fox-like curve -->
+  <path d="M640 250 C 760 236, 860 190, 940 128 S 1080 52, 1160 44 L 1160 84 C 1080 92, 1010 150, 950 186 S 780 268, 640 280 Z" fill="url(#band)">
+    <animate attributeName="opacity" values="0.35;1;0.35" dur="4s" repeatCount="indefinite"/>
+  </path>
+  <path d="M640 265 C 760 252, 860 210, 945 156 S 1080 70, 1160 64" fill="none" stroke="#F5B83D" stroke-width="4" stroke-linecap="round" stroke-dasharray="900" stroke-dashoffset="900">
+    <animate attributeName="stroke-dashoffset" from="900" to="0" dur="2.4s" fill="freeze"/>
+  </path>
+  <g fill="#FFFFFF">
+    <circle cx="700" cy="255" r="7"><animate attributeName="r" values="0;7" dur="0.4s" begin="0.6s" fill="freeze"/></circle>
+    <circle cx="800" cy="232" r="7"><animate attributeName="r" values="0;7" dur="0.4s" begin="1.0s" fill="freeze"/></circle>
+    <circle cx="890" cy="178" r="7"><animate attributeName="r" values="0;7" dur="0.4s" begin="1.4s" fill="freeze"/></circle>
+    <circle cx="985" cy="118" r="7"><animate attributeName="r" values="0;7" dur="0.4s" begin="1.8s" fill="freeze"/></circle>
+    <circle cx="1090" cy="78" r="7"><animate attributeName="r" values="0;7" dur="0.4s" begin="2.2s" fill="freeze"/></circle>
+  </g>
+  <text x="64" y="132" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="84" font-weight="800" fill="#FFFFFF" letter-spacing="6">ANCHOR</text>
+  <text x="68" y="182" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" fill="#E9DDFB">Physics-anchored, uncertainty-aware</text>
+  <text x="68" y="216" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" fill="#E9DDFB">copolymer Tg prediction for coatings</text>
+  <text x="68" y="262" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" fill="#F5B83D" letter-spacing="2">ASIAN PAINTS ALCHEMY 2026 · CASE 4 · TEAM RIZE</text>
+</svg>
